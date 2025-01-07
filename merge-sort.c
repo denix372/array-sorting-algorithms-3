@@ -2,7 +2,7 @@
 #define MAX_LEN 100
 
 static void merge(int arr[], int left, int mid, int right) 
-{ 
+{
     int i, j, k; 
     int n1 = mid - left + 1; 
     int n2 = right - mid; 
